@@ -35,7 +35,7 @@
 /* EDIT ONLY THIS DATA SECTION FOR ROUTINE SITE UPDATES.
    Public-safe descriptions only; do not add private repository details or user files. */
 const journey = {
-  lastReviewed: '28 October 2026',
+  lastReviewed: '30 October 2026',
   capabilities: [
     {icon:'▦',title:'Native editor foundation',desc:'A real Rust-based desktop editor with frames, shapes, text, layout and manual editing foundations.',status:'Implemented foundation',tone:''},
     {icon:'◇',title:'Components & design structures',desc:'Source-backed implementations for components, variants and variables. Real-world interoperability needs more testing.',status:'Implemented · evolving',tone:'limited'},
@@ -53,10 +53,11 @@ const journey = {
     {period:'OCTOBER 2026',title:'A smarter fallback, with clear boundaries',desc:'Isolation-safe bitmap fallback was implemented; further contextual compositing was studied and deliberately deferred.'},
     {period:'27 OCTOBER 2026',title:'An external client creates editable designs',desc:'AI-01 verified external MCP creation of native text, Auto Layout, a component and linked instance with save/reopen and Undo/Redo. Real model and attached desktop control remain future milestones.'},
     {period:'28 OCTOBER 2026',title:'Safer external-agent design editing',desc:'AI-02 verified host-granted headless editing with inspect, propose and apply, stale-change detection, receipts and separate no-overwrite file outputs. 41 external proof checks passed.'},
-    {period:'28 OCTOBER 2026 · MOST RECENT',title:'A real model creates an editable dashboard',desc:'AI-03 used GPT-6.1-Sol through Codex CLI and Gama MCP to create 154 native editable objects with 54 tool calls. Actual macOS editing, Undo/Redo and save/reopen passed. Built-in chat and local inference are still future possibilities.',latest:true}
+    {period:'28 OCTOBER 2026',title:'A real model creates an editable dashboard',desc:'AI-03 used GPT-6.1-Sol through Codex CLI and Gama MCP to create 154 native editable objects with 54 tool calls. Actual macOS editing, Undo/Redo and save/reopen passed.'},
+    {period:'30 OCTOBER 2026 · MOST RECENT',title:'First successful local design-intent proof',desc:'Qwen3-4B generated one editable settings card through a narrow typed intent adapter: 14 native objects, with an 8.05-second model response. Experimental local-only checkpoint, not a shipped feature or general design agent.',latest:true}
   ],
   upcoming: [
-    {icon:'✧',title:'Native AI experience',desc:'Bring guarded AI-assisted editing into the desktop workflow; evaluate optional on-device models alongside user-connected providers.',status:'Exploration · next',tone:'next'},
+    {icon:'✧',title:'Native AI experience',desc:'Bring guarded AI-assisted editing into the desktop workflow. A separate local-model experiment has generated one editable template-constrained card.',status:'Development focus',tone:'next'},
     {icon:'⌘',title:'Prompt to design',desc:'Describe a screen, inspect the plan and see native frames, text and layout appear in the editor.',status:'Planned',tone:'next'},
     {icon:'↗',title:'Conversational refinement',desc:'Make targeted changes to an existing design without discarding the parts that already work.',status:'Vision',tone:'limited'}
   ]
